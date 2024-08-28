@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hello Bootstrap</title>
+        <!-- <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous" /> -->
+        <link
+            rel="stylesheet"
+            href="../bootstrap-5.3.3-dist/css/bootstrap.css" />
+        <link
+            rel="stylesheet"
+            href="../bootstrap-icons-1.11.3/font/bootstrap-icons.css" />
+    </head>
+    <body>
+        <!-- <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script> -->
+        <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+        <!---->
+        <div class="container text-center mt-2">
+            <div class="row">
+                <div class="col text-bg-secondary">Column</div>
+                <div class="col text-bg-light">Column</div>
+                <div class="col text-bg-secondary">Column</div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-2">
+            <div class="row">
+                <div class="col text-bg-light">1 of 2</div>
+                <div class="col text-bg-secondary">2 of 2</div>
+            </div>
+            <div class="row">
+                <div class="col text-bg-info">1 of 3</div>
+                <div class="col text-bg-warning">2 of 3</div>
+                <div class="col text-bg-info">3 of 3</div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-2">
+            <div class="row">
+                <div class="col text-bg-light">1 of 3</div>
+                <div class="col-6 text-bg-secondary">
+                    2 of 3 (wider by 6 columns)
+                </div>
+                <div class="col text-bg-light">3 of 3</div>
+            </div>
+            <div class="row">
+                <div class="text-bg-info col">1 of 3</div>
+                <div class="text-bg-warning col-5">
+                    2 of 3 (wider by 5 columns)
+                </div>
+                <div class="text-bg-info col">3 of 3</div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-2">
+            <div class="row justify-content-md-center">
+                <div class="col col-lg-2 text-bg-info">1 of 3</div>
+                <div class="col-md-auto text-bg-warning">
+                    Variable width content
+                </div>
+                <div class="col col-lg-2 text-bg-info">3 of 3</div>
+            </div>
+            <div class="row">
+                <div class="col text-bg-secondary">1 of 3</div>
+                <div class="col-md-auto text-bg-light">
+                    Variable width content
+                </div>
+                <div class="col col-lg-2 text-bg-secondary">3 of 3</div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-2">
+            <div class="row">
+                <div class="col text-bg-info">col</div>
+                <div class="col text-bg-warning">col</div>
+                <div class="col text-bg-info">col</div>
+                <div class="col text-bg-warning">col</div>
+            </div>
+            <div class="row">
+                <div class="col-8 text-bg-light">col-8</div>
+                <div class="col-4 text-bg-secondary">col-4</div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-2">
+            <div class="row">
+                <div class="col-sm-8 text-bg-warning">col-sm-8</div>
+                <div class="col-sm-4 text-bg-info">col-sm-4</div>
+            </div>
+            <div class="row">
+                <div class="col-sm text-bg-light">col-sm</div>
+                <div class="col-sm text-bg-secondary">col-sm</div>
+                <div class="col-sm text-bg-light">col-sm</div>
+            </div>
+        </div>
+
+        <div class="container text-center mt-2">
+            <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+            <div class="row">
+                <div class="text-bg-info col-md-8">.col-md-8</div>
+                <div class="text-bg-warning col-6 col-md-4">
+                    .col-6 .col-md-4
+                </div>
+            </div>
+
+            <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+            <div class="row">
+                <div class="text-bg-secondary col-6 col-md-4">
+                    .col-6 .col-md-4
+                </div>
+                <div class="text-bg-light col-6 col-md-4">.col-6 .col-md-4</div>
+                <div class="text-bg-primary col-6 col-md-4">
+                    .col-6 .col-md-4
+                </div>
+            </div>
+
+            <!-- Columns are always 50% wide, on mobile and desktop -->
+            <div class="row">
+                <div class="text-bg-info col-6">.col-6</div>
+                <div class="text-bg-warning col-6">.col-6</div>
+            </div>
+
+            <div class="container text-center mt-2">
+                <div class="row row-cols-2">
+                    <div class="col text-bg-info">Column</div>
+                    <div class="col text-bg-warning">Column</div>
+                    <div class="col text-bg-primary">Column</div>
+                    <div class="col text-bg-info">Column</div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-2">
+                <div class="row row-cols-3">
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-warning col">Column</div>
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-secondary col">Column</div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-2">
+                <div class="row row-cols-auto">
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-primary col">Column</div>
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-warning col">Column</div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-2">
+                <div class="row row-cols-4">
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-warning col">Column</div>
+                    <div class="text-bg-secondary col">Column</div>
+                    <div class="text-bg-info col">Column</div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-2">
+                <div class="row row-cols-4">
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-warning col">Column</div>
+                    <div class="text-bg-info col-6">Column</div>
+                    <div class="text-bg-secondary col">Column</div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-2">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-warning col">Column</div>
+                    <div class="text-bg-info col">Column</div>
+                    <div class="text-bg-secondary col">Column</div>
+                </div>
+            </div>
+
+            <div class="container text-center mt-2">
+                <div class="row">
+                    <div class="text-bg-info col-sm-3">Level 1: .col-sm-3</div>
+                    <div class="text-bg-warning col-sm-9">
+                        Level 1: .col-sm-9
+                        <div class="row">
+                            <div class="col-8 col-sm-6 text-bg-secondary">
+                                Level 2: .col-8 .col-sm-6
+                            </div>
+                            <div class="col-4 col-sm-6 text-bg-light">
+                                Level 2: .col-4 .col-sm-6
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
